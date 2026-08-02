@@ -1,8 +1,24 @@
 aid: walkie-talkie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walkie-talkie.png
 name: Walkie-Talkie
-description: 'Walkie-Talkie is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Walkie-Talkie is a Gen Z social audio platform built by Picslo Corp that hosts live
+  audio rooms called "frequencies" — public or private channels where users tune in and talk with
+  friends in high-fidelity audio anytime, anywhere. Thousands of public frequencies run at any given
+  time, connecting people around topics they choose to discuss, alongside private frequencies between
+  close friends. The company raised $3.25M in pre-seed funding from investors including Partech, Breega,
+  Kima Ventures, Heroic Ventures, TI Platform Ventures, LDV Partners, and Diaspora Ventures. It is a
+  consumer mobile application with no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/walkie-talkie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Social Audio
+- Audio
+- Communication
+- Mobile App
+- Gen Z
+- Social Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://walkie-talkie.io/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
