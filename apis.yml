@@ -48,7 +48,7 @@ tags:
 - Communications
 - Mobile App
 - Gen Z
-- Social-Media
+- Social Media
 tags_raw:
 - Company
 - Consumer
@@ -58,6 +58,7 @@ tags_raw:
 - Mobile App
 - Gen Z
 - Social Media
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
